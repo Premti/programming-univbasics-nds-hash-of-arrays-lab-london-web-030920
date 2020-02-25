@@ -8,6 +8,7 @@ BASE_HOA = {
 def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
-  BASE_HOA[:chipmunks]<<(name)
-  return BASE_HOA[:chipmunks]
+  show = BASE_HOA
+  show[:chipmunks]<<(name)
+  return show
 end
